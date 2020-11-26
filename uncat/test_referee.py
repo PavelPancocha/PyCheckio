@@ -1,5 +1,5 @@
 from unittest import TestCase
-from referee import checkio as referee
+from uncat.referee import checkio as referee
 
 
 class TestReferee(TestCase):
