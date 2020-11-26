@@ -1,6 +1,9 @@
+from datetime import datetime
+
 def days_diff(a, b):
-    # your code here
-    return None
+    first_datetime = datetime(*a)
+    second_datetime = datetime(*b)
+    return abs((first_datetime - second_datetime).days)
 
 
 if __name__ == '__main__':
